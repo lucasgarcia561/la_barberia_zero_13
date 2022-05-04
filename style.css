@@ -9,6 +9,8 @@
     --secundary-color: hsl(58, 100%, 56%);
     --background-color: hsl(0, 0%, 0%);
     --whatsapp-color: hsl(0, 0%, 0%);
+    --text-color: hsl(0, 0%, 0%);
+    --paragraph-color: hsl(0, 0%, 29%);
 
     font-size: 62.5%;
 }
@@ -17,7 +19,7 @@ body {
     font-family: 'DM Sans';
     font-size: 1.6rem;
     text-align: center;
-    background-color: var(--background-color);
+    /*background-color: var(--background-color);*/
 }
 
 header {
@@ -36,15 +38,18 @@ h4 {
 h1 {
     font-size: 3.4rem;
     color: var(--secundary-color);
-    line-height: 130px;
     margin-bottom: 2.4rem;
 }
 
 h3 {
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 p {
+    color: var(--paragraph-color);
+}
+
+.text {
     font-size: 1.8rem;
     line-height: 150%;
     font-weight: 400;
@@ -54,7 +59,7 @@ p {
 
 button {
     background:  var(--primary-color);
-    border: none;
+    border: 2px solid var(--secundary-color);
     border-radius: 4rem;
     margin-bottom: 6rem;
     height: 6.2rem;
@@ -68,4 +73,48 @@ button {
     gap: 1.6rem;
     margin-right: auto;
     margin-left: auto;
+}
+
+.stats {
+    width: 32.7rem;
+    padding-block: 4rem;
+    margin-inline: auto;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+    border: 2px solid var(--secundary-color);
+    border-radius: 2rem;
+}
+
+.stat p {
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+
+.stat h3 {
+    font-size: 4.8rem;
+    line-height: 130%;
+    margin-bottom: 0.4rem;
+}
+
+header img {
+    width: 35.4rem;
+    display: block;
+    margin-inline: auto;
+    object-position: 0.3rem;
+}
+
+header::before {
+    content: "";
+    width: 100vw;
+    height: 108rem;
+    background-color: var(--background-color);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
