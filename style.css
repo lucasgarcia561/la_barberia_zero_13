@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --primary-color: hsl(0, 0%, 100%);
+    --secundary-color: hsl(58, 100%, 56%);
+    --background-color: hsl(0, 0%, 0%);
+    --whatsapp-color: hsl(0, 0%, 0%);
+
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'DM Sans';
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: var(--background-color);
+}
+
+header {
+    margin-top: 4.1rem;
+    width: 37.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h4 {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin-bottom: 1.6rem;
+}
+
+h1 {
+    font-size: 3.4rem;
+    color: var(--secundary-color);
+    line-height: 130px;
+    margin-bottom: 2.4rem;
+}
+
+h3 {
+    color: var(--primary-color);
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 150%;
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-bottom: 3.2rem;
+}
+
+button {
+    background:  var(--primary-color);
+    border: none;
+    border-radius: 4rem;
+    margin-bottom: 6rem;
+    height: 6.2rem;
+    width: 26.3rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    margin-right: auto;
+    margin-left: auto;
+}
