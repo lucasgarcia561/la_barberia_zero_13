@@ -12,6 +12,7 @@
     --text-color: hsl(0, 0%, 0%);
     --paragraph-color: hsl(0, 0%, 29%);
     --nav-height: 7.2rem;
+    --background-menu-color: #222222;
 
     font-size: 62.5%;
 }
@@ -138,6 +139,6 @@ nav .wrapper{
 }
 
 nav.scroll {
-    background: var(--background-color);
+    background: var(--background-menu-color);
     width: 100vw;
 }
