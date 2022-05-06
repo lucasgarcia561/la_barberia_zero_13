@@ -234,11 +234,3 @@ body.menu-expanded .logo, body.menu-expanded button {
     position: relative;
     z-index: 100;
 }
-
-body.menu-expanded .logo path {
-    fill: white;
-}
-
-body.menu-expanded button path {
-    stroke: white;
-}
